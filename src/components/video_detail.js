@@ -5,7 +5,7 @@ const VideoDetail = ({video}) =>{
     }
 
     const videoId = video.id.videoId;
-    const url = `${location.protocol}://youtube.com/embed/${videoId}`;
+    const url = `https://youtube.com/embed/${videoId}`;
 
     return (
         <div className="video-detail col-md-8">
